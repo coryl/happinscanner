@@ -5,6 +5,9 @@
       location = "group:README.md">
    </FileRef>
    <FileRef
+      location = "group:screenshot.jpg">
+   </FileRef>
+   <FileRef
       location = "group:HappinScanner.xcodeproj">
    </FileRef>
    <FileRef

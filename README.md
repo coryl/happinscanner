@@ -4,6 +4,7 @@ To provide a working code sample as a demonstration of Swift and clean coding ab
 
 ## Demo video
 ![screenshot](screenshot.jpg "screenshot")
+
 https://www.dropbox.com/s/1giilgek1alagkb/rpreplay_final1620873645.mov?dl=0
 
 After successful scan, the camera dismisses itself and the entry is displayed.

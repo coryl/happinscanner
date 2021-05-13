@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.4.3)
+  - BarcodeScanner (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - BarcodeScanner
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BarcodeScanner
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  BarcodeScanner: 2f5a53198eae49dc39bf61f2c1f05c04e01ff72d
+
+PODFILE CHECKSUM: 7b689044d74eba5e1051656e98dc2006fb92f524
+
+COCOAPODS: 1.9.3

@@ -8,7 +8,7 @@ https://www.dropbox.com/s/1giilgek1alagkb/rpreplay_final1620873645.mov?dl=0
 After successful scan, the camera dismisses itself and the entry is displayed.
 
 ## Documentation
-Rather than wait for access to the Linea Pro SDK, and due to limitations of not having the physical Lineapro hardware, I decided to implement an open source camera based barcode scanner, and wrote an adapter class around it.
+Rather than wait for access to the Linea Pro SDK, and due to limitations of not having the physical Lineapro hardware, I decided to implement an open source camera based barcode scanner, and wrote an adapter class ([```ScannerAdapter```](https://github.com/coryl/happinscanner/blob/main/HappinScanner/Core/ScannerAdapter.swift)) around it.
 
 ```
 protocol ScannerAdapterDelegate {
@@ -21,7 +21,7 @@ Since the protcol is fairly simple, swapping out the camera scanner for the hard
 
 A barcode scan gets parsed into a ```Barcode``` model object, which is a simple ```struct```.
 
-I've also implemented a mock networking manager in ```APIHelper```:
+I've also implemented a mock networking manager in [```APIHelper```](https://github.com/coryl/happinscanner/blob/main/HappinScanner/Core/APIHelper.swift):
 ```
 class func checkTicketStatus(_ barcode: Barcode, completion:  @escaping (SomeResponseModel?, Error?) -> Void)
 ```
@@ -42,6 +42,3 @@ $ pod install
 
 ## Open Workspace
 Open and use the ```HappinScanner.xcworkspace```, rather than ```HappinScanner.xcodeproj```. You can now edit code and run the application on iOS simulators or test devices.
-
-
-
